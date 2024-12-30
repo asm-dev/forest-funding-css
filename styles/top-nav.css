@@ -1,0 +1,48 @@
+/* top-nav.css */
+@import "variables.css";
+
+#top-nav-container {
+  position: relative;
+  width: 100%;
+  height: var(--height-large);
+  max-height: var(--max-height);
+  background-image: url("img/encabezado_bosque.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#top-nav-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: var(--font-size-large);
+  color: var(--color-text);
+  background-color: rgba(138, 168, 124, 0.6); /* Fondo semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Mejor visibilidad del texto */
+}
+
+@media (max-width: var(--mq-medium)) {
+  #top-nav-container {
+    height: var(--height-medium);
+  }
+
+  #top-nav-container h1 {
+    font-size: var(--font-size-medium);
+  }
+}
+
+@media (max-width: var(--mq-small)) {
+  #top-nav-container {
+    height: var(--height-small);
+  }
+
+  #top-nav-container h1 {
+    font-size: var(--font-size-small);
+  }
+}

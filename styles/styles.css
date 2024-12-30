@@ -1,0 +1,213 @@
+body {
+  font-family: var(--font-family-main);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+header {
+  position: relative;
+  color: var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  background: url("img/encabezado_bosque.jpg") no-repeat center center/cover;
+  z-index: 0;
+}
+
+header nav {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  z-index: 10;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--color-accent);
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color var(--transition-time);
+}
+
+header nav a:hover {
+  color: var(--color-highlight);
+}
+
+#inicio span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--color-highlight);
+  border: 2px solid var(--color-highlight);
+  padding: 5px 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+/* Títulos de las secciones */
+main h2,
+main h3 {
+  font-family: "Lora", serif; /* Fuente más moderna */
+  color: var(--color-primary);
+  border-bottom: 3px solid var(--color-secondary);
+  padding-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+main h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#top-nav-container h1 {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--font-size-large);
+  color: var(--color-text);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Secciones */
+main {
+  padding: 60px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+main h2 {
+  font-family: var(--font-family-heading);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--color-primary);
+}
+
+main p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+main img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#proyectos article {
+  background-color: var(--color-secondary);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  text-align: left;
+}
+
+#proyectos article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#proyectos h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+}
+
+#proyectos p {
+  color: var(--color-text);
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#proyectos a {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--color-highlight);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#proyectos a:hover {
+  color: var(--color-primary);
+}
+
+footer {
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+footer a {
+  color: var(--color-accent);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--color-highlight);
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: var(--color-accent);
+}
+
+/* Redes sociales */
+footer section h2 {
+  font-size: 1.5rem;
+  color: var(--color-text);
+  margin-bottom: 15px;
+}
+
+@media (max-width: var(--mq-medium)) {
+  header h1 {
+    font-size: var(--font-size-medium);
+  }
+
+  main {
+    padding: 40px 15px;
+  }
+
+  #proyectos {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: var(--mq-small)) {
+  header h1 {
+    font-size: var(--font-size-small);
+  }
+
+  #top-nav-container h1 {
+    font-size: var(--font-size-small);
+  }
+}
