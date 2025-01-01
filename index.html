@@ -4,23 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pino Quemado. Reforestación del Bosque Galego</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/variables.css" />
-    <link rel="stylesheet" href="styles/top-nav.css" />
-    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#sobre-nosotros">El equipo</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#donar">Donar</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+    <header id="main-header">
+      <nav id="top-nav">
+        <ul id="nav-list">
+          <li><a href="#mission">Inicio</a></li>
+          <li><a href="#about-us">El equipo</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#donation">Donar</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
-      <div id="top-nav-container">
+      <div id="hero">
         <h1>Recuperamos el verde de Galicia</h1>
         <img
           src="img/encabezado_bosque.jpg"
@@ -29,8 +30,8 @@
       </div>
     </header>
 
-    <main>
-      <section id="inicio">
+    <main id="main-content">
+      <section id="mission">
         <h2>Nuestra misión</h2>
         <p>
           Gracias a donaciones colectivas conseguimos recuperar los bosques tras
@@ -41,7 +42,7 @@
           Después de los recientes incendios en la región, es primordial
           restaurar los bosques dañados y promover un desarrollo sostenible.
         </p>
-        <article>
+        <article id="mission-details">
           <p>Conseguimos pasar de lo quemado</p>
           <figure>
             <img
@@ -64,7 +65,7 @@
         </article>
       </section>
 
-      <section id="sobre-nosotros">
+      <section id="about-us">
         <h2>Sobre Nosotros</h2>
         <article>
           <h3>¿Cómo empezó todo esto?</h3>
@@ -107,7 +108,7 @@
         </article>
       </section>
 
-      <section id="proyectos">
+      <section id="projects">
         <h2>Acciones</h2>
         <article>
           <h3>Reforestación en As Fragas do Eume</h3>
@@ -137,7 +138,7 @@
         </article>
       </section>
 
-      <section id="donar">
+      <section id="donation">
         <h2>Arrima el hombro</h2>
         <p>
           Con tu ayuda podemos recuperar el olor a madera mojada, el verde de
@@ -164,7 +165,7 @@
         </p>
       </section>
 
-      <section id="contacto">
+      <section id="contact">
         <h2>Contacto</h2>
         <address>
           <p>
@@ -185,8 +186,8 @@
       </section>
     </main>
 
-    <footer>
-      <section>
+    <footer id="main-footer">
+      <section id="social-media">
         <h2>Echa un vistazo a nuestras redes</h2>
         <ul>
           <li><a href="#">Twitter</a></li>

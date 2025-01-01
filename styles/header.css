@@ -1,0 +1,28 @@
+@import "./variables/variables.css";
+
+#main-header {
+  #hero {
+    position: relative;
+    text-align: center;
+    color: var(--secondary-color);
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: var(--heading-font);
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      padding: 0.5rem 1rem;
+      border: 2px solid var(--secondary-color);
+      border-radius: var(--border-radius);
+    }
+  }
+}
