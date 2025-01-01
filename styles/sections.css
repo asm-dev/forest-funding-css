@@ -22,34 +22,90 @@ main img {
       color: var(--primary-color);
     }
 
+    h3 {
+      padding: 1rem 0;
+      font-size: 1.5rem;
+    }
+
     p {
       font-family: var(--body-font);
       font-weight: 400;
       padding: 0.75rem 0;
     }
 
-    #mission-details {
-      figure {
-        margin: 1rem 0;
+    img {
+      width: 100%;
+      max-height: 60vh;
+      object-fit: cover;
+      overflow: hidden;
+      display: block;
+    }
+  }
 
-        img {
-          border-radius: var(--border-radius);
-        }
+  #mission-details {
+    figure {
+      margin: 1rem 0;
 
-        figcaption {
-          font-style: italic;
-          text-align: end;
-        }
+      img {
+        border-radius: var(--border-radius);
       }
 
-      p {
-        margin: 3rem 0;
-        text-align: center;
-        border-bottom: 1px solid var(--terciary-color);
-        border-top: 1px solid var(--terciary-color);
-        font-size: 2rem;
-        color: var(--terciary-color);
+      figcaption {
+        font-style: italic;
+        text-align: end;
       }
     }
+
+    p {
+      margin: 3rem 0;
+      text-align: center;
+      border-bottom: 1px solid var(--terciary-color);
+      border-top: 1px solid var(--terciary-color);
+      font-size: 1.75rem;
+      font-weight: 400;
+      color: var(--terciary-color);
+    }
+
+    span {
+      font-size: 6rem;
+      font-weight: bolder;
+      padding: 5rem 0 2rem 0;
+      display: inline-block;
+      text-align: center;
+      background-size: cover;
+      background-image: url("/img/bosque_recuperado.jpg");
+      background-clip: text;
+      color: transparent;
+    }
+  }
+
+  #about-us {
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+
+  img {
+    margin-top: 2rem;
+    border-radius: var(--border-radius);
+  }
+
+  p b {
+    font-size: 2rem;
+    display: block;
+    padding: 2rem 10rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.3rem;
+  }
+
+  button {
+    margin-top: 3rem;
+    align-self: center;
   }
 }
