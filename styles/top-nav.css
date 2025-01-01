@@ -1,6 +1,9 @@
 @import "./variables/variables.css";
 
 #top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   background-color: var(--secondary-color);
   padding: var(--padding);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

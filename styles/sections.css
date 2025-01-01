@@ -15,7 +15,9 @@ main img {
     padding: var(--padding);
 
     h2 {
+      padding-bottom: 2rem;
       font-family: var(--heading-font);
+      font-size: 2rem;
       font-weight: 600;
       color: var(--primary-color);
     }
@@ -23,6 +25,7 @@ main img {
     p {
       font-family: var(--body-font);
       font-weight: 400;
+      padding: 0.75rem 0;
     }
 
     #mission-details {
@@ -32,6 +35,20 @@ main img {
         img {
           border-radius: var(--border-radius);
         }
+
+        figcaption {
+          font-style: italic;
+          text-align: end;
+        }
+      }
+
+      p {
+        margin: 3rem 0;
+        text-align: center;
+        border-bottom: 1px solid var(--terciary-color);
+        border-top: 1px solid var(--terciary-color);
+        font-size: 2rem;
+        color: var(--terciary-color);
       }
     }
   }
