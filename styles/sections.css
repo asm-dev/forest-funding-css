@@ -86,26 +86,103 @@ main img {
       align-items: flex-start;
       justify-content: center;
     }
+
+    img {
+      margin-top: 2rem;
+      border-radius: var(--border-radius);
+    }
+
+    p b {
+      font-size: 1.5rem;
+      display: block;
+      padding: 3rem 8rem;
+      font-weight: bold;
+      color: var(--accent-color);
+      text-transform: uppercase;
+      letter-spacing: 0.3rem;
+      word-spacing: 0.3rem;
+    }
+
+    button {
+      margin-top: 3rem;
+      align-self: center;
+    }
   }
 
-  img {
-    margin-top: 2rem;
-    border-radius: var(--border-radius);
-  }
+  #projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
 
-  p b {
-    font-size: 2rem;
-    display: block;
-    padding: 2rem 10rem;
-    font-weight: bold;
-    color: var(--accent-color);
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    word-spacing: 0.3rem;
-  }
+    grid-template-areas:
+      "title"
+      "cards";
 
-  button {
-    margin-top: 3rem;
-    align-self: center;
+    h2 {
+      grid-area: title;
+      text-align: left;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .cards {
+      grid-area: cards;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    article {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      padding: 1.5rem;
+      height: 100%;
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 1rem;
+        flex-grow: 1;
+      }
+
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+      }
+
+      a {
+        display: inline-block;
+        font-size: 1rem;
+        color: var(--accent-color);
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+        margin-top: auto;
+
+        &:hover {
+          color: #000;
+        }
+      }
+    }
   }
 }
