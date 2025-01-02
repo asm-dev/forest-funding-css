@@ -24,7 +24,7 @@
 
         a {
           text-decoration: none;
-          color: var(--input-border-color);
+          color: var(--light-grey);
 
           &:hover {
             text-decoration: underline;
@@ -36,6 +36,6 @@
 
   p {
     margin-top: 1rem;
-    color: var(--input-placeholder-color);
+    color: var(--dark-grey);
   }
 }
