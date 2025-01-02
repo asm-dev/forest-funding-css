@@ -6,6 +6,8 @@ La idea principal detrás del diseño propuesto es ofrecer una interfaz intuitiv
 
 Para ver la página se recomienda clonar este repositorio en la máquina local y abrirlo con VSC y la extensión Live Server.
 
+&nbsp;
+
 > **Nota**: Este proyecto no incluye datos ni proyectos reales. Es una maqueta educativa con fines demostrativos
 
 &nbsp;
