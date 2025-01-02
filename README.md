@@ -1,7 +1,5 @@
 # Reforestación en Galicia - Diseño con CSS
 
-&nbsp;
-
 Este proyecto es una página web diseñada para una plataforma de micromecenazgo o _crowdfunding_ enfocada en la acción medioambiental mediante la recuperación de bosques gallegos incendiados. 
 
 La idea principal detrás del diseño propuesto es ofrecer una interfaz intuitiva y accesible que permita contribuir a una buena experiencia de navegación, potenciando con ello las donaciones de los usuarios.
