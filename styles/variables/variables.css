@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #256128;
+  --primary-color: #2b702e;
   --secondary-color: #ffffff;
-  --terciary-color: #173f19d3;
+  --terciary-color: #112e12d3;
   --accent-color: #d48700;
   --background-color: #f5f5f5;
   --transparent-background-color: #f5f5f531;
@@ -13,4 +13,9 @@
   --max-width: 1200px;
   --padding: 1rem;
   --border-radius: 6px;
+
+  --input-background-color: #ffffff;
+  --input-border-color: #cccccc;
+  --input-placeholder-color: #999999;
+  --box-shadow-light: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

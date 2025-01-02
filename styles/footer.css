@@ -1,14 +1,22 @@
 @import "./variables/variables.css";
 
 #main-footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--terciary-color);
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem;
+  margin-top: 6rem;
 
   #social-media {
+    h2 {
+      color: var(--secondary-color);
+      margin: 2rem 0;
+    }
+
     ul {
       list-style: none;
+      margin-bottom: 2rem;
 
       li {
         display: inline;
@@ -16,7 +24,7 @@
 
         a {
           text-decoration: none;
-          color: var(--secondary-color);
+          color: var(--input-border-color);
 
           &:hover {
             text-decoration: underline;
@@ -24,5 +32,10 @@
         }
       }
     }
+  }
+
+  p {
+    margin-top: 1rem;
+    color: var(--input-placeholder-color);
   }
 }

@@ -9,8 +9,9 @@ button {
 
 .cta-button {
   font-size: 1rem;
-  background-color: var(--background-color);
-  color: var(--accent-color);
+  color: #fff;
+  background-color: var(--accent-color);
+
   border: 2px solid var(--accent-color);
   border-radius: var(--border-radius);
   font-weight: bold;
@@ -18,7 +19,7 @@ button {
 }
 
 .cta-button:hover {
-  color: #fff;
-  background-color: var(--accent-color);
+  background-color: var(--background-color);
+  color: var(--accent-color);
   border-color: var(--accent-color);
 }
