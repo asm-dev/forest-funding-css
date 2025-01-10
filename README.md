@@ -15,7 +15,7 @@ Para ver la página se recomienda clonar este repositorio en la máquina local y
 La creación de esta web forma parte del programa de actividades del MS en Desarrollo Web de la UEM. Si quieres conocer más sobre las razones detrás de su estructura HTML o ver cómo queda con algo de JS deberás ir a otros repositorios:
 
 1. [Estructura HTML](https://github.com/asm-dev/forest-funding-html)
-2. [Le agregamos interactividad con JS](https://github.com/asm-dev/forest-funding-js)
+2. [Funcionalidad JS](https://github.com/asm-dev/forest-funding-js)
 
 &nbsp;
 
