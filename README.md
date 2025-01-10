@@ -26,7 +26,7 @@ La creación de esta web forma parte del programa de actividades del MS en Desar
 - **Divide y vencerás**. Se ha dividido el CSS en varios ficheros con el fin de mejorar la escabilidad y el mantenimiento del código.
 - **Uso de variables**. Permiten mantener consistencia a lo largo de la página y reducir errores.
 - **Implementación de CSS anidado**. El anidamiento posibilita organizar jerárquicamente las reglas, mejorando con ello la legibilidad.
-- **Responsividad**. Aseguramos una navegación fluida también para dispositivos móviles. Crear un diseño responsive con medidas escalables como `rem` y _media queries_ impacta positivamente en la accesibilidad y usabilidad de nuestro sitio.
+- **Responsividad**. Aunque no es _mobile first_, nos aseguramos de que para nada sea _mobile last_ gracias a un diseño responsive que usa medidas escalables como `rem` y _media queries_. Asegurar una navegación fluida en todos los dispositivos impacta positivamente en la accesibilidad y la usabilidad de nuestro sitio.
 - **Control preciso de posiciones**. Utilizar Flex y Grid permite jugar con las alineaciones de una manera precisa, adaptable y segura.
 - **Empleo de transiciones y efectos**. Se han agregado varios pequeños detalles que contribuyan a mantener la atención del usuario al navegar por el sitio, por ejemplo un efecto en el hover de las cards.
 - **El usuario primero**. Hemos de diseñar interfaces pensando en el usuario. La selección cromática está inspirada en los tonos de la naturaleza y el bosque, simbolizando el objetivo medioambiental del proyecto. En cuanto a la tipografía se optó por una fuente moderna y minimalista que permitiera conectar con una audiencia joven.
