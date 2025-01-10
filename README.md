@@ -21,8 +21,6 @@ La creación de esta web forma parte del programa de actividades del MS en Desar
 
 ## Detalles técnicos del diseño
 
-&nbsp;
-
 - **Divide y vencerás**. Se ha dividido el CSS en varios ficheros con el fin de mejorar la escabilidad y el mantenimiento del código.
 - **Uso de variables**. Permiten mantener consistencia a lo largo de la página y reducir errores.
 - **Implementación de CSS anidado**. El anidamiento posibilita organizar jerárquicamente las reglas, mejorando con ello la legibilidad.
