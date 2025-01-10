@@ -1,6 +1,6 @@
 # Reforestación en Galicia - Diseño con CSS
 
-Este proyecto es una página web diseñada para una plataforma de micromecenazgo o _crowdfunding_ enfocada en la acción medioambiental mediante la recuperación de bosques gallegos incendiados. 
+Este proyecto es una página web diseñada para una plataforma de micromecenazgo o _crowdfunding_ enfocada en la acción medioambiental mediante la recuperación de bosques gallegos incendiados.
 
 La idea principal detrás del diseño propuesto es ofrecer una interfaz intuitiva y accesible que permita contribuir a una buena experiencia de navegación, potenciando con ello las donaciones de los usuarios.
 
@@ -15,7 +15,7 @@ Para ver la página se recomienda clonar este repositorio en la máquina local y
 La creación de esta web forma parte del programa de actividades del MS en Desarrollo Web de la UEM. Si quieres conocer más sobre las razones detrás de su estructura HTML o ver cómo queda con algo de JS deberás ir a otros repositorios:
 
 1. [Estructura HTML](https://github.com/asm-dev/forest-funding-html)
-2. Le agregamos interactividad con JS
+2. [Le agregamos interactividad con JS](https://github.com/asm-dev/forest-funding-js)
 
 &nbsp;
 
@@ -28,7 +28,7 @@ La creación de esta web forma parte del programa de actividades del MS en Desar
 - **Implementación de CSS anidado**. El anidamiento posibilita organizar jerárquicamente las reglas, mejorando con ello la legibilidad.
 - **Responsividad**. Aseguramos una navegación fluida también para dispositivos móviles. Crear un diseño responsive con medidas escalables como `rem` y _media queries_ impacta positivamente en la accesibilidad y usabilidad de nuestro sitio.
 - **Control preciso de posiciones**. Utilizar Flex y Grid permite jugar con las alineaciones de una manera precisa, adaptable y segura.
-- **Empleo de transiciones y efectos**. Se han agregado varios pequeños detalles que contribuyan a mantener la atención del usuario al navegar por el sitio, por ejemplo un efecto en el hover de las cards. 
+- **Empleo de transiciones y efectos**. Se han agregado varios pequeños detalles que contribuyan a mantener la atención del usuario al navegar por el sitio, por ejemplo un efecto en el hover de las cards.
 - **El usuario primero**. Hemos de diseñar interfaces pensando en el usuario. La selección cromática está inspirada en los tonos de la naturaleza y el bosque, simbolizando el objetivo medioambiental del proyecto. En cuanto a la tipografía se optó por una fuente moderna y minimalista que permitiera conectar con una audiencia joven.
 
 &nbsp;
