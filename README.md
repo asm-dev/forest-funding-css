@@ -1,42 +1,42 @@
-# Reforestación en Galicia - Diseño con CSS
+# Reforestation in Galicia - Design with CSS
 
-Este repositorio contiene una página web sencilla de micromecenazgo o _crowdfunding_. La página está enfocada a lograr acciones medioambientales que permitan recuperar los bosques gallegos tras ser incendiados. 
-> No se incluyen datos reales, se trata de una prueba de concepto educativa con fines puramente demostrativos.
+This repository contains a simple crowdfunding web page. The page is focused on achieving environmental actions that help restore Galician forests after they have been burned. 
+> No real data is included; this is an educational proof of concept with purely demonstrative purposes.
 
-La creación de esta web forma parte del programa de actividades del Máster en Desarrollo Web de la UEM. Si quieres conocer más sobre las razones detrás de su estructura HTML o ver cómo queda con algo de JS deberás visitar los siguientes enlaces:
+The creation of this website is part of the activity program of the UEM Master's in Web Development. If you want to know more about the reasons behind its HTML structure or see how it looks with some JS, you should visit the following links:
 
-1. [Estructura HTML](https://github.com/asm-dev/forest-funding-html)
-2. [Funcionalidad JS](https://github.com/asm-dev/forest-funding-js)
+1. [HTML structure](https://github.com/asm-dev/forest-funding-html)
+2. [JS functionality](https://github.com/asm-dev/forest-funding-js)
 
-La idea principal detrás del diseño propuesto con este CSS es crear una interfaz intuitiva y accesible que permita contribuir a una buena experiencia de navegación, potenciando con ello las donaciones de los usuarios.
-
-&nbsp;
-
-## Notas técnicas del diseño
-
-Esta actividad refleja cómo las herramientas modernas de CSS, combinadas con un enfoque centrado en el usuario, pueden transformar una página web en una plataforma funcional y visualmente atractiva, contribuyendo con ello al éxito de iniciativas de _crowfunding_. 
-
-Como dijo Steve Krug en _Don't Make Me Think_, el diseño web no es solamente cómo algo se ve o funciona, sino de lo que se siente al usarlo. En términos de usabilidad, hemos integrado elementos visuales y funcionales que guían al usuario hacia los objetivos clave, como realizar una donación o explorar proyectos. Por ejemplo, seleccionando el color de "acento" para los botones _Call To Action_. Aunque parezca una web simple, cada elemento del diseño ha sido pensado para conseguir conectar con los potenciales usuarios y reforzar así el propósito ambiental del sitio.
-
-- **Divide y vencerás**. Se ha dividido el CSS en varios ficheros con el fin de mejorar la escabilidad y el mantenimiento del código.
-
-- **Uso de variables**. Permiten mantener consistencia a lo largo de la página y reducir errores.
-
-- **Implementación de CSS anidado**. El anidamiento posibilita organizar jerárquicamente las reglas, mejorando con ello la legibilidad.
-
-- **Control preciso de posiciones**. Utilizar Flex y Grid permite jugar con las alineaciones de una manera precisa, adaptable y segura.
-
-- **Empleo de transiciones y efectos**. Se han agregado varios pequeños detalles que contribuyan a mantener la atención del usuario al navegar por el sitio, por ejemplo un efecto en el hover de las cards.
-
-- **El usuario primero**. Hemos de diseñar interfaces pensando en el usuario. La selección cromática está inspirada en los tonos de la naturaleza y el bosque, simbolizando el objetivo medioambiental del proyecto. En cuanto a la tipografía se optó por una fuente moderna y minimalista que permitiera conectar con una audiencia joven.
-
-- **Un diseño adaptado a todas las pantallas**. Aunque no es _mobile first_, nos aseguramos de que para nada sea _mobile last_ gracias a un diseño responsive que usa medidas escalables como `rem` y _media queries_. Asegurar una navegación fluida en todos los dispositivos impacta positivamente en la accesibilidad y la usabilidad de nuestro sitio. Dos ejemplos de cambios en función de las dimensiones del dispositivo son:
-
-  - El menú superior se transforma en menú hamburguesa para dispositivos móviles. 
-  - En la sección de "Salvemos Crecente" se ha optado por mostrar todas las imágenes disponibles solo cuando el dispositivo supere ciertas dimensiones.
+The main idea behind the design proposed with this CSS is to create an intuitive and accessible interface that contributes to a good browsing experience, thereby boosting user donations.
 
 &nbsp;
 
-Dispositivos móviles             |  Dispositivos de mayor tamaño
+## Technical design notes
+
+This activity reflects how modern CSS tools, combined with a user-centered approach, can transform a web page into a functional and visually appealing platform, thereby contributing to the success of _crowdfunding_ initiatives. 
+
+As Steve Krug said in _Don't Make Me Think_, web design is not only about how something looks or works, but about how it feels to use. In terms of usability, we have integrated visual and functional elements that guide the user toward key goals, such as making a donation or exploring projects. For example, by choosing the "accent" color for the _Call To Action_ buttons. Although it may look like a simple website, every design element has been thought out to connect with potential users and thus reinforce the environmental purpose of the site.
+
+- **Divide and conquer**. The CSS has been split into several files in order to improve scalability and code maintenance.
+
+- **Use of variables**. They help maintain consistency throughout the page and reduce errors.
+
+- **Implementation of nested CSS**. Nesting makes it possible to organize rules hierarchically, thereby improving readability.
+
+- **Precise control of positions**. Using Flex and Grid makes it possible to play with alignments in a precise, adaptable and safe way.
+
+- **Use of transitions and effects**. Several small details have been added to help keep the user's attention while browsing the site, for example an effect on the hover of the cards.
+
+- **User first**. We must design interfaces with the user in mind. The color selection is inspired by the tones of nature and the forest, symbolizing the environmental goal of the project. As for typography, a modern and minimalist font was chosen to connect with a young audience.
+
+- **A design adapted to all screens**. Although it is not _mobile first_, we made sure it is by no means _mobile last_ thanks to a responsive design that uses scalable units such as `rem` and _media queries_. Ensuring smooth navigation on all devices has a positive impact on the accessibility and usability of our site. Two examples of changes depending on the device dimensions are:
+
+  - The top menu turns into a hamburger menu on mobile devices. 
+  - In the "Let's Save Crecente" section, all available images are shown only when the device exceeds certain dimensions.
+
+&nbsp;
+
+Mobile devices             |  Larger devices
 :-------------------------:|:-------------------------:
-![captura-movil](https://github.com/user-attachments/assets/0cd744fe-ffc6-4557-8ffe-3c91dd30fd3e)  |  ![captura-ordenador](https://github.com/user-attachments/assets/0541c3ab-2dd7-4980-83de-cc14841bbcbd)
+![mobile-screenshot](https://github.com/user-attachments/assets/0cd744fe-ffc6-4557-8ffe-3c91dd30fd3e)  |  ![desktop-screenshot](https://github.com/user-attachments/assets/0541c3ab-2dd7-4980-83de-cc14841bbcbd)
